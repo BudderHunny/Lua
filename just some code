@@ -4,11 +4,11 @@
 game.Players.PlayerAdded:Connect(function(player)
 	
 	local  leaderstats = Instance.new("Folder")
-	leaderstats.name = "Leaderboard"
-	leaderstats.Parent = player
+	leaderstats.name = "Leaderboard"	
+	leaderstats.Parent = player		
 	
-	local points = Instance.new("IntValue")
-	points.name = ("Points")
+	local points = Instance.new("IntValue")  
+	points.name = ("Points")		
 	
 	
 end)
