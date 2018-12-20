@@ -1,0 +1,53 @@
+
+-- PLayer Leaderboard List and points
+
+game.Players.PlayerAdded:Connect(function(player)
+	
+	local  leaderstats = Instance.new("Folder")
+	leaderstats.name = "Leaderboard"
+	leaderstats.Parent = player
+	
+	local points = Instance.new("IntValue")
+	points.name = ("Points")
+	
+	
+end)
+
+
+-- Main game Scource
+
+
+-- defined variables
+
+
+
+
+
+
+-- 
+while true do
+	
+	Status.value =("Awaiting Gladiators")
+	
+	repeat wait (1) until game.Players.NumPlayers >= 4
+	
+	Status.value = ("Intermission")
+	
+	wait (10)
+	
+	local plrs = ()
+	
+	for i, player in pairs (game.Players:GetPlayers() do
+		if player then
+			table.insert(plrs,player)
+		end
+	end)
+	
+	wait (1)
+	
+	local AvalibleMaps = MapsFolder:GetChildren()
+	
+	["map1","map2","map3","map4"]
+	
+end
+	
